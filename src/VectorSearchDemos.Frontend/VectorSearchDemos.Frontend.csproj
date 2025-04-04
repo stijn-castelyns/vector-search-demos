@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dbeeb7f2-7c63-4e73-bce8-3b40bd673475</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VectorSearchDemos.ServiceDefaults\VectorSearchDemos.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

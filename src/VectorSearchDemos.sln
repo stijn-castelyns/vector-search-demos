@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSearchDemos.Frontend", "VectorSearchDemos.Frontend\VectorSearchDemos.Frontend.csproj", "{08B34D9C-4CC0-42C6-F112-7564A6CEDF7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSearchDemos.AppHost", "VectorSearchDemos.AppHost\VectorSearchDemos.AppHost.csproj", "{797ED406-CC74-42D2-A1BB-CEE0FA45655E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSearchDemos.ServiceDefaults", "VectorSearchDemos.ServiceDefaults\VectorSearchDemos.ServiceDefaults.csproj", "{09713009-EF36-8AB5-55A4-181BAD8475F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSearchDemos.Ingestion", "VectorSearchDemos.Ingestion\VectorSearchDemos.Ingestion.csproj", "{C4D19BD6-B0B8-4147-8AB7-224268CA5E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSearchDemos.Infra", "VectorSearchDemos.Infra\VectorSearchDemos.Infra.csproj", "{8C6FB783-50BA-4913-BCC6-1EBD32B55E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSearchDemos.Core", "VectorSearchDemos.Core\VectorSearchDemos.Core.csproj", "{D1DBDE1E-D445-4BC2-B4A2-2AC240C03939}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B34D9C-4CC0-42C6-F112-7564A6CEDF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B34D9C-4CC0-42C6-F112-7564A6CEDF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B34D9C-4CC0-42C6-F112-7564A6CEDF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B34D9C-4CC0-42C6-F112-7564A6CEDF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797ED406-CC74-42D2-A1BB-CEE0FA45655E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797ED406-CC74-42D2-A1BB-CEE0FA45655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797ED406-CC74-42D2-A1BB-CEE0FA45655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797ED406-CC74-42D2-A1BB-CEE0FA45655E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09713009-EF36-8AB5-55A4-181BAD8475F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09713009-EF36-8AB5-55A4-181BAD8475F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09713009-EF36-8AB5-55A4-181BAD8475F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09713009-EF36-8AB5-55A4-181BAD8475F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D19BD6-B0B8-4147-8AB7-224268CA5E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D19BD6-B0B8-4147-8AB7-224268CA5E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D19BD6-B0B8-4147-8AB7-224268CA5E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D19BD6-B0B8-4147-8AB7-224268CA5E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6FB783-50BA-4913-BCC6-1EBD32B55E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6FB783-50BA-4913-BCC6-1EBD32B55E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6FB783-50BA-4913-BCC6-1EBD32B55E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6FB783-50BA-4913-BCC6-1EBD32B55E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DBDE1E-D445-4BC2-B4A2-2AC240C03939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DBDE1E-D445-4BC2-B4A2-2AC240C03939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DBDE1E-D445-4BC2-B4A2-2AC240C03939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DBDE1E-D445-4BC2-B4A2-2AC240C03939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57FE86D3-99AB-4330-B8CC-5CE919FB2ED5}
+	EndGlobalSection
+EndGlobal
