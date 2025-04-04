@@ -22,7 +22,9 @@ internal class ShoeIngestor
   {
     byte[] imageBytes = await File.ReadAllBytesAsync(imageFilePath);
     string fileName = Path.GetFileName(imageFilePath);
-    
+
+    string categoryName = fileName.Split('_')[0];
+
     ShoeContentGeneration shoeContentGeneration = await CourseExtractionGenerationAsync(imageBytes);
 
     // Generate text embedding
@@ -37,6 +39,7 @@ internal class ShoeIngestor
       DescriptionVector = descriptionEmbedding.ToArray(),
       ImageVector = imageEmbedding,
       ImageUrl = fileName,
+      Category = categoryName
     };
     // Add the shoe to the database context
     dbContext.Shoes.Add(shoe);
